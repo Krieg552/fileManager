@@ -21,7 +21,7 @@ public class Main {
 
         System.out.print("Enter fileName: ");
         String fileName = newScanner.next();
-//test
+
         newFileManager.createNewFile(filePath, fileName);
     }
 }
