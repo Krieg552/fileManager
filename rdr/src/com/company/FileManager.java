@@ -18,6 +18,7 @@ public class fileManager {
         File rmFile = new File(path + fileName);
         if (rmFile.delete()) {
             System.out.println("file was successfully deleted");
+            System.out.println(rmFile.getAbsolutePath());
         } else
             System.out.println("file was not deleted");
     }
